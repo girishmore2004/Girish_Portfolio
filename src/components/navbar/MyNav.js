@@ -7,8 +7,8 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-} from "react-icons/ai";
-import { FaBlog } from "react-icons/fa";
+} from "react-icons/ai"; 
+
 import "../../style.css";
 import { CgFileDocument } from "react-icons/cg";
 export default function MyNav() {
@@ -99,15 +99,8 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blogs"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
+
+
 
             <Nav.Item className="fork-btn">
               <Button

@@ -1,7 +1,6 @@
 import React from "react";
 import {
-  AiOutlineInstagram,
-  AiFillFacebook,
+  AiOutlineInstagram, 
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";

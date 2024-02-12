@@ -9,7 +9,7 @@ import Zoom from "react-reveal/Zoom";
 import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink ="https://raw.githubusercontent.com/girishmore2004/portfolio-Girish/src/assets/Girish_resume.pdf"; 
+ const resumeLink ="https://raw.githubusercontent.com/girishmore2004/portfolio-Girish/master/src/assets/Girish_resume.pdf";  
 function Resume() {
   const [width, setWidth] = useState(1200);
 
@@ -20,7 +20,7 @@ function Resume() {
   return (
     <div>
       <section className="home-section">
-        <Container fluid id="home">
+        <Container id="home">
           <Particle />
           <Container className="home-content">
             <div
@@ -32,7 +32,7 @@ function Resume() {
                 <h1 style={{ color: "rgb(134 61 176)" }}>RESUME</h1>
               </Zoom>
             </div>
-            <div fluid className="certificate-section" id="about">
+            <div className="certificate-section" id="about">
               <div className="d-flex justify-content-center mt-4">
                 <Button variant="primary" href={pdf} target="_blank">
                   <AiOutlineDownload />
@@ -44,12 +44,7 @@ function Resume() {
                   <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
                 </Document>
               </div>
-              <div className="d-flex justify-content-center">
-                <Button variant="primary" href={pdf} target="_blank">
-                  <AiOutlineDownload />
-                  &nbsp;Download Resume
-                </Button>
-              </div>
+               
             </div>
           </Container>
         </Container>

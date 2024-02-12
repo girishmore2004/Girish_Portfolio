@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Zoom from "react-reveal/Zoom";
-import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
-import { FaCode } from "react-icons/fa";
+// import Zoom from "react-reveal/Zoom";
+// import { Fade } from "react-reveal";
+// import nyc from "../../images/nyc.png";
+// import ci from "../../images/onboarding.png";
+// import hd from "../../images/hd.png";
+// import pp from "../../images/portfolio.png";
+// import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -14,7 +14,7 @@ export default function Projects() {
   return (
     <div>
       <Container fluid className="certificate-section" id="about">
-        <Container>
+        {/* <Container>
           <Row>
             <Col
               md={12}
@@ -271,7 +271,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-          </Row>
+          </Row> */}
           <div className="blog--viewAll">
             <Link to="/projectspage">
               <button className="btn btn-primary">
@@ -281,7 +281,7 @@ export default function Projects() {
             </Link>
           </div>
         </Container>
-      </Container>
+      {/* </Container> */}
     </div>
   );
 }
