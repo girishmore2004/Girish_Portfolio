@@ -7,7 +7,7 @@ import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn,FaGoogle } from "react-icons/fa";
-import Certification from "../../components/certificate/Certification";
+// import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
 
@@ -89,7 +89,7 @@ export default function Home() {
                     <img
                       src="./profile.png"
                       alt="home pic"
-                      className="img-fluid"
+                      className="img-fluid " 
                     />
                   </Fade>
                 </Tilt>
@@ -99,7 +99,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
+      {/* <Certification /> */}
       <Projects />
       <Contactus />
     </section>
