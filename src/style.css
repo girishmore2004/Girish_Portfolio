@@ -167,7 +167,9 @@ html {
     width: 100% !important;
     text-align: center !important;
     padding-top: 40px !important;
+    border-radius: 42%;
   }
+
   .navbarmain{
     margin-left: 0px;
   }
@@ -1726,4 +1728,8 @@ html {
 }
 #resume{
   height:800px;
+}
+
+.img-fluid{
+  border-radius: 42%;
 }

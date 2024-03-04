@@ -9,7 +9,7 @@ import Zoom from "react-reveal/Zoom";
 import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
- const resumeLink ="https://raw.githubusercontent.com/girishmore2004/portfolio-Girish/master/src/assets/Girish_resume.pdf";  
+ const resumeLink ="https://raw.githubusercontent.com/girishmore2004/portfolio-Girish/master/src/assets/Girish_resume2.pdf";  
 function Resume() {
   const [width, setWidth] = useState(1200);
 
