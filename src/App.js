@@ -16,10 +16,9 @@ import About from "./components/aboutme/about/About";
 import Ranking from "./components/aboutme/ranking/Ranking";
 import EducationJourney from "./components/aboutme/journey/EducationJourney";
 import ExperienceJourney from "./components/aboutme/journey/ExperienceJourney";
-import CertificatePage from "./pages/certificate_page/CertificatePage";
+// import CertificatePage from "./pages/certificate_page/CertificatePage";
 import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
-import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
-import ComingSoon from "./pages/comingsoon_page/comingsoon";
+import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";  
 import Notfound from "./pages/blogs_page/notfound";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
@@ -63,9 +62,9 @@ function App() {
             <Route path="toolkit" element={<Toolkit />}></Route>
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
-          <Route path="/certificatepage" element={<CertificatePage />} />
+          {/* <Route path="/certificatepage" element={<CertificatePage />} /> */}
           <Route path="/resume" element={<Resume />} />
-          <Route path="/blogs" element={<ComingSoon />} />
+
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
