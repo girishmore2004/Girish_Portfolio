@@ -152,7 +152,7 @@ export default function Contactus() {
                       </div>
                     </a>
                   </div>
-                  <div className="contact-map">
+                  {/* <div className="contact-map">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.833618785371!2d90.41265112695315!3d24.036931700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db9832166e63%3A0x96050e560e6dc4fa!2sBOF%20Central%20Mosque!5e0!3m2!1sen!2sbd!4v1695023265917!5m2!1sen!2sbd"
                       frameBorder="0"
@@ -163,7 +163,7 @@ export default function Contactus() {
                       loading="lazy"
                       className=""
                     ></iframe>
-                  </div>
+                  </div> */}
                 </Col>
               </Row>
             </Col>

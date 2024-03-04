@@ -1,14 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 // import Zoom from "react-reveal/Zoom";
 // import { Fade } from "react-reveal";
 // import nyc from "../../images/nyc.png";
 // import ci from "../../images/onboarding.png";
 // import hd from "../../images/hd.png";
 // import pp from "../../images/portfolio.png";
-// import { FaCode } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import { HiArrowRight } from "react-icons/hi";
+// // import { FaCode } from "react-icons/fa";
+// import { Link } from "react-router-dom";
+// import { HiArrowRight } from "react-icons/hi";
 
 export default function Projects() {
   return (
@@ -272,14 +273,14 @@ export default function Projects() {
               </Fade>
             </Col>
           </Row> */}
-          <div className="blog--viewAll">
+          {/* <div className="blog--viewAll">
             <Link to="/projectspage">
               <button className="btn btn-primary">
                 View All
                 <HiArrowRight className="viewArr" />
               </button>
             </Link>
-          </div>
+          </div> */}
         </Container>
       {/* </Container> */}
     </div>
