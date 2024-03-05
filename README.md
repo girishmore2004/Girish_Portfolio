@@ -1,4 +1,4 @@
-![Portfolio](https://github.com/girishmore2004/portfolio-Girish/blob/main/src/images/portfolio1.png)
+![Portfolio](https://github.com/girishmore2004/Girish_Portfolio/blob/main/src/images/portfolio1.png)
 
 # Getting Started with Create React App
 
