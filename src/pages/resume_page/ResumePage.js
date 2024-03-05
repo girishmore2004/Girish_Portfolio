@@ -2,14 +2,14 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../../Particle";
-import pdf from "../../assets/Girish_resume2.pdf";
+import pdf from "../../assets/Girish_CV.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from "react-reveal/Zoom";
 import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
- const resumeLink ="https://raw.githubusercontent.com/girishmore2004/portfolio-Girish/main/src/assets/Girish_resume2.pdf";  
+ const resumeLink ="https://raw.githubusercontent.com/girishmore2004/portfolio-Girish/main/src/assets/Girish_CV.pdf";  
 function Resume() {
   const [width, setWidth] = useState(1200);
 
@@ -36,7 +36,7 @@ function Resume() {
               <div className="d-flex justify-content-center mt-4">
                 <Button variant="primary" href={pdf} target="_blank">
                   <AiOutlineDownload />
-                  &nbsp;Download Resume
+                  &nbsp;Download CV
                 </Button>
               </div>
               <div className="resume d-flex justify-content-center">
@@ -44,7 +44,11 @@ function Resume() {
                   <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
                 </Document>
               </div>
-               
+              <div className="resume d-flex justify-content-center">
+                <Document file={resumeLink}>
+                  <Page pageNumber={2} scale={width > 786 ? 1.6 : 0.4} />
+                </Document>
+              </div>
             </div>
           </Container>
         </Container>
