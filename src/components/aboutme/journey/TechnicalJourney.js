@@ -10,7 +10,7 @@ import {
   DiHtml5,
   DiPython,
   DiReact,
-  DiPhp,
+  // DiPhp,
   DiJava,
   DiCss3,
   DiJavascript1,
