@@ -3,7 +3,7 @@ import Particle from "../../Particle";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal"; 
-import pp from "../../images/portfolio.png"; 
+import pp from "../../images/portfolio1.png"; 
 import ac from "../../images/weather.png"; 
 import calculator from "../../images/onboarding.png";
 import calendar from "../../images/dailynews.png";  
