@@ -116,7 +116,7 @@ function TechnicalJourney() {
         >
           <h3 className="vertical-timeline-element-title">JAVASCRIPT</h3>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
@@ -125,7 +125,7 @@ function TechnicalJourney() {
           icon={<DiPhp />}
         >
           <h3 className="vertical-timeline-element-title">PHP</h3>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
@@ -142,9 +142,9 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiNodejs />}
+          icon={<DiReact />}
         >
-          <h3 className="vertical-timeline-element-title">NODE JS</h3>
+          <h3 className="vertical-timeline-element-title">REACT</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -152,10 +152,11 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiReact />}
+          icon={<DiNodejs />}
         >
-          <h3 className="vertical-timeline-element-title">REACT</h3>
+          <h3 className="vertical-timeline-element-title">NODE JS</h3>
         </VerticalTimelineElement>
+        
 
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
