@@ -16,7 +16,7 @@ html {
 }
 
 .purple {
-  color: #b061df !important;
+  color: #ff7700 !important;
 }
 
 /* --------- */
@@ -54,7 +54,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #af90e3;
 }
 
 /* Handle */
@@ -155,7 +155,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #484d6c !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -286,7 +286,7 @@ html {
 .home-section {
   position: relative;
   z-index: 2;
-  background-image: var(--image-gradient), url(./images/h3.jpg);
+  /* background-image: var(--image-gradient), url(./images/h3.jpg); */
   background-position: top center;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -480,7 +480,7 @@ html {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(41, 0, 122);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -1078,7 +1078,7 @@ html {
   font-size: 20px;
   padding: 10px;
   padding-bottom: 0px;
-  color:black;
+  color:rgb(202, 151, 239);
 }
 
 .cert-body-subtitle {
