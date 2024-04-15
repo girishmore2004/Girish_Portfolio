@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa37ebce.css",
+    "main.js": "/static/js/main.914bdccc.js",
+    "static/js/592.2d34dd8a.chunk.js": "/static/js/592.2d34dd8a.chunk.js",
+    "static/media/onboarding.png": "/static/media/onboarding.542f8dee519b9dd4585f.png",
+    "static/media/dailynews.png": "/static/media/dailynews.c60a5805da6de2fdb81e.png",
+    "static/media/weather.png": "/static/media/weather.439108c6b0f1ae0d185b.png",
+    "static/media/portfolio1.png": "/static/media/portfolio1.a59457d5aca55b7204c2.png",
+    "static/media/portfolio_3.jpg": "/static/media/portfolio_3.42da9d02a661c11f07a8.jpg",
+    "static/media/pc.png": "/static/media/pc.06ad21ea51446dc1062f.png",
+    "static/media/Girish_CV.pdf": "/static/media/Girish_CV.f7018393c7aee6afdd05.pdf",
+    "static/media/Vs.png": "/static/media/Vs.19edc3fbac1c451f289d.png",
+    "static/media/pg.png": "/static/media/pg.9f8f5cd98ce5726b002f.png",
+    "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
+    "static/media/chorme.svg": "/static/media/chorme.b0bd08e3d4226484ce842d3453b979e9.svg",
+    "index.html": "/index.html",
+    "main.fa37ebce.css.map": "/static/css/main.fa37ebce.css.map",
+    "main.914bdccc.js.map": "/static/js/main.914bdccc.js.map",
+    "592.2d34dd8a.chunk.js.map": "/static/js/592.2d34dd8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa37ebce.css",
+    "static/js/main.914bdccc.js"
+  ]
+}
