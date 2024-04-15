@@ -16,7 +16,7 @@ html {
 }
 
 .purple {
-  color: #ff7700 !important;
+  color: #ffffff !important;
 }
 
 /* --------- */
@@ -30,9 +30,12 @@ html {
   height: 100%;
   z-index: 999999;
   background-color: #1f0060;
-  background-image: url(./images/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-image: url(./images/pre.svg); */
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  background-image: url("C:/Users/giris/OneDrive/Desktop/portfolio-Girish/src/images/portfolio_3.jpg"); 
+  background-size:contain; 
+  background-attachment: fixed;
 }
 
 #preloader-none {
@@ -65,7 +68,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(114, 83, 100, 0.911);
   border-radius: 12px;
 }
 
@@ -98,7 +101,7 @@ html {
 }
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #e0d4e6 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -155,7 +158,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #484d6c !important;
+    /* background-color: #484d6c !important; */
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -175,14 +178,16 @@ html {
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: #ffffff !important; 
 }
 .img-fluid {
-  width: 384px;
+  
+  border-radius: 32%;
 }
+
 .logo {
-  height: 1.8em !important;
-  width: 1.8em !important;
+    height: 2em !important;
+    width: 2em !important;
 }
 
 .navbar-nav .nav-link {
@@ -386,7 +391,7 @@ html {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  color:#fbd9ad;
+  color:#ffffff;
 }
 .certificate-section {
   position: relative;
