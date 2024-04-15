@@ -51,6 +51,7 @@ export default function MyNav() {
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
+            
             updateExpanded(expand ? false : "expanded");
           }}
         >
