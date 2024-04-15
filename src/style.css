@@ -33,7 +33,7 @@ html {
   /* background-image: url(./images/pre.svg); */
   /* background-repeat: no-repeat;
   background-position: center; */
-  background-image: url("C:/Users/giris/OneDrive/Desktop/portfolio-Girish/src/images/portfolio_3.jpg"); 
+  background-image: url("/src/images/portfolio_3.jpg"); 
   background-size:contain; 
   background-attachment: fixed;
 }

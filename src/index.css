@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: linear-gradient(to left, rgb(172 14 177), rgb(0 0 0)); */
-  background-image: url("C:/Users/giris/OneDrive/Desktop/portfolio-Girish/src/images/portfolio_3.jpg"); 
+  background-image: url("/src/images/portfolio_3.jpg"); 
   background-size:contain; 
   background-attachment: fixed;
 }
