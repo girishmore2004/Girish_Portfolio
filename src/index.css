@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(172 14 177), rgb(0 0 0));
-
+  /* background-image: linear-gradient(to left, rgb(172 14 177), rgb(0 0 0)); */
+  background-image: url("portfolio-background.webp");
 }
 
 code {
