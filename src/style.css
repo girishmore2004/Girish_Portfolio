@@ -35,7 +35,7 @@ html {
   /* background-position: center; */
   background-image: url("/src/images/portfolio_3.jpg"); 
   background-repeat: no-repeat;
-  background-size:contain; 
+  background-size:cover; 
   background-attachment: fixed;
 }
 
