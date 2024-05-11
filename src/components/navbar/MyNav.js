@@ -59,8 +59,8 @@ export default function MyNav() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav" className="navbarmain">
-          <Nav className="ml-auto" defaultActiveKey="#home">
+        <Navbar.Collapse id="responsive-navbar-nav" className="navbarmain" >
+          <Nav className="ml-auto" defaultActiveKey="#home" >
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
