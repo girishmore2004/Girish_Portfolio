@@ -6,9 +6,7 @@ import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn,FaGoogle } from "react-icons/fa";
-// import Certification from "../../components/certificate/Certification";
-import Projects from "../../components/projects/Projects";
+import { FaLinkedinIn,FaGoogle } from "react-icons/fa"; 
 import Contactus from "../../components/contactus/Contactus";
 
 export default function Home() {
@@ -18,7 +16,7 @@ export default function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={8} className="home-header">
+            <Col md={8} className="home-header" >
               <h1
                 style={{ paddingBottom: 15, fontSize: "175px" }}
                 className="heading"
@@ -31,10 +29,10 @@ export default function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Girish More</strong>
+                <strong className="main-name" style={{color:"aqua"}}> Girish More</strong>
               </h1>
 
-              <div className="typing-homeclass">
+              <div className="typing-homeclass" style={{color:"aqua"}}>
                 <Typing />
               </div>
               <div className="sociallink-home">
@@ -86,7 +84,7 @@ export default function Home() {
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
-                    <img
+                    <img style={{boxShadow:'0px 0px 20px white'}}
                       src="./profile.png"
                       alt="home pic"
                       className="img-fluid " 
@@ -98,9 +96,7 @@ export default function Home() {
           </Row>
         </Container>
       </Container>
-      <AboutmeContainer />
-      {/* <Certification /> */}
-      <Projects />
+      <AboutmeContainer /> 
       <Contactus />
     </section>
   );

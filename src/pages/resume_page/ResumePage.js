@@ -26,10 +26,10 @@ function Resume() {
             <div
               className="d-flex justify-content-center"
               width="100%"
-              style={{ backgroundColor: "#fbd9ad" }}
+              style={{ backgroundColor: "#282828",boxShadow:"0px 0px 10px aqua" }}
             >
               <Zoom left cascade>
-                <h1 style={{ color: "rgb(134 61 176)" }}>RESUME</h1>
+                <h1 style={{ color: "aqua" }}>RESUME</h1>
               </Zoom>
             </div>
             <div className="certificate-section" id="about">
@@ -39,14 +39,14 @@ function Resume() {
                   &nbsp;Download CV
                 </Button>
               </div>
-              <div className="resume d-flex justify-content-center">
-                <Document file={resumeLink}>
-                  <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
+              <div className="resume d-flex justify-content-center" >
+                <Document file={resumeLink} style={{border:"2px solid aqua" , boxShadow:"0px 0px 40pxx aqua"}}>
+                  <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4}  />
                 </Document>
               </div>
-              <div className="resume d-flex justify-content-center">
-                <Document file={resumeLink}>
-                  <Page pageNumber={2} scale={width > 786 ? 1.6 : 0.4} />
+              <div className="resume d-flex justify-content-center" >
+                <Document file={resumeLink} >
+                  <Page pageNumber={2} scale={width > 786 ? 1.6 : 0.4}  />
                 </Document>
               </div>
             </div>
