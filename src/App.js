@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import "./App.css";
 import "react-vertical-timeline-component/style.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Preloader from "./Preloader";
+import "bootstrap/dist/css/bootstrap.min.css"; 
 import MyNav from "./components/navbar/MyNav";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/home_page/HomePage";
@@ -16,7 +15,7 @@ import About from "./components/aboutme/about/About";
 import Ranking from "./components/aboutme/ranking/Ranking";
 import EducationJourney from "./components/aboutme/journey/EducationJourney";
 import ExperienceJourney from "./components/aboutme/journey/ExperienceJourney";
-// import CertificatePage from "./pages/certificate_page/CertificatePage";
+import CertificatePage from "./pages/certificatepage/CertificatePage";
 import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
 import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";  
 import Notfound from "./pages/blogs_page/notfound";
@@ -38,8 +37,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Preloader load={load} />
+    <Router> 
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <MyNav />
         <Routes>
@@ -62,7 +60,7 @@ function App() {
             <Route path="toolkit" element={<Toolkit />}></Route>
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
-          {/* <Route path="/certificatepage" element={<CertificatePage />} /> */}
+          <Route path="/certificatepage" element={<CertificatePage />} />
           <Route path="/resume" element={<Resume />} />
 
           <Route path="*" element={<Notfound />} />

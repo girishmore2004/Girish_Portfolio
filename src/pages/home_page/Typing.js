@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Typing() {
     return (
-        <Typewriter
+        <Typewriter style={{color:"aqua"}}
             options={{
                 strings: [
                     "Developer",

@@ -19,30 +19,6 @@ html {
   color: #ffffff !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #1f0060;
-  /* background-image: url(./images/pre.svg); */
-  
-  /* background-position: center; */
-  background-image: url("/src/images/portfolio_3.jpg"); 
-  background-repeat: no-repeat;
-  background-size:cover; 
-  background-attachment: fixed;
-}
-
-#preloader-none {
-  opacity: 0;
-}
-
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -58,12 +34,12 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #af90e3;
+  background: aqua;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: aqua;
   border-radius: 12px;
 }
 
@@ -322,17 +298,17 @@ html {
 
 .main-name {
   /* color: #cb70ff; */
-  color: #cb70ff;
+  color: aqua;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #cb70ff !important;
+  color: aqua !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #cb70ff !important;
+  color: aqua !important;
 }
 .typing-homeclass{
   padding-left: 45px;
@@ -370,11 +346,11 @@ html {
   .sociallink-home{
     padding-left: 10px;
     text-align: left;
-    padding-top: 55px;
+    padding-top: 55px; 
   }
   .socialicons{
     padding-top: 10px;
-    padding-right: 3px !important;
+    padding-right: 3px !important; 
   }
 }
 
@@ -458,7 +434,8 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 20%;
-  background: #68187a;
+  /* background: #68187a; */
+  background: aqua;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -466,13 +443,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 18px #801f95;
+  box-shadow: 0 0 18px aqua;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 40px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color:  aqua;
+  box-shadow: 0 0 40px  aqua;
+  text-shadow: 0 0 2px  aqua;
 }
 
 .social-icons {
