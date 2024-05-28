@@ -278,8 +278,7 @@
 //   );
 // }
 
-import React from "react";
-import Particle from "../../Particle";
+import React from "react"; 
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
@@ -376,8 +375,7 @@ const Project = ({ project }) => {
 export default function ProjectPage() {
   return (
     <section className="home-section" style={{ padding: "60px 0" }}>
-      <Container fluid id="home">
-        <Particle />
+      <Container fluid id="home"> 
         <Container className="home-content">
           <div
             className="d-flex justify-content-center"

@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../../Particle";
+import { Container, Row, Col } from "react-bootstrap"; 
 import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
@@ -12,8 +11,7 @@ import Contactus from "../../components/contactus/Contactus";
 export default function Home() {
   return (
     <section className="home-section">
-      <Container fluid id="home">
-        <Particle />
+      <Container fluid id="home"> 
         <Container className="home-content">
           <Row>
             <Col md={8} className="home-header" >
