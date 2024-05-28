@@ -1,6 +1,5 @@
 
-import React, { useState } from "react";
-import Particle from "../../Particle";
+import React, { useState } from "react"; 
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
@@ -152,8 +151,7 @@ const Certificate = ({ certificate }) => {
 const CertificatePage = () => {
   return (
     <section className="home-section" style={{ padding: "60px 0" }}>
-      <Container fluid id="home1">
-        <Particle />
+      <Container fluid id="home1"> 
         <Container className="home-content">
           <div
             className="d-flex justify-content-center"

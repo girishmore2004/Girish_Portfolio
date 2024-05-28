@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { AiOutlineDownload } from "react-icons/ai";
-import Particle from "../../Particle";
+import { AiOutlineDownload } from "react-icons/ai"; 
 import pdf from "../../assets/Girish_CV.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -20,8 +19,7 @@ function Resume() {
   return (
     <div>
       <section className="home-section">
-        <Container id="home">
-          <Particle />
+        <Container id="home"> 
           <Container className="home-content">
             <div
               className="d-flex justify-content-center"
