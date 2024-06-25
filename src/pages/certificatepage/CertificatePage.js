@@ -15,79 +15,92 @@ const certificates = [
     id: 1,
     title: "Build and Secure Networks in Google Cloud",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5793983?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5793983?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 2,
     title: "Create and Manage Cloud Resources",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5783886?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5783886?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 3,
     title: "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5501533?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5501533?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 4,
     title: "Google Cloud Computing Foundations: Data, ML and AI in Google Cloud",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5753575?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5753575?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 5,
     title: "Google Cloud Computing Foundations: Networking",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5743173?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5743173?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 6,
     title: "Level 3 Gen AI : Prompt Engineering",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5577592?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5577592?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 7,
     title: "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5801559?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5801559?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 8,
     title: "Perform Foundational Infrastructure Tasks in Google Cloud",
     image: pp,
-    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5793219?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    link: "https://www.cloudskillsboost.google/public_profiles/2a29f203-59f5-4f27-a13e-ae4fd573a31d/badges/5793219?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    isPDF: false
   },
   {
     id: 9,
     title: "Bussiness Analysis & Process Management ",
     image: pp,
-    link: "https://www.coursera.org/learn/business-analysis-process-management/home/week/1"
+    link: "https://www.coursera.org/learn/business-analysis-process-management/home/week/1",
+    isPDF: false
   },
   {
     id: 10,
     title: "Create a Website Using Wordpress : Free Hosting & Sub-domain ",
     image: wordpress,
-    link: "https://www.coursera.org/learn/create-a-website-using-wordpress-free-hosting-subdomain/home/week/1"
+    link: "https://www.coursera.org/learn/create-a-website-using-wordpress-free-hosting-subdomain/home/week/1",
+    isPDF: false
   },
   {
     id: 11,
     title: "Introduction to Microsoft Excel",
     image: excel,
-    link: "https://www.coursera.org/learn/introduction-microsoft-excel/home/week/1"
+    link: "https://www.coursera.org/learn/introduction-microsoft-excel/home/week/1",
+    isPDF: false
   },
   {
     id: 12,
     title: "InvestMent Banking job Simulation Virtual Internship Certificate by JP Morgon",
     image: morgon,
-    link: "https://raw.githubusercontent.com/girishmore2004/Girish_Portfolio/main/src/assets/InvestMent_BAnking_job_Simulation.pdf" 
+    link: "https://raw.githubusercontent.com/girishmore2004/Girish_Portfolio/main/src/assets/InvestMent_BAnking_job_Simulation.pdf",
+    isPDF: true
   },
   {
     id: 13,
     title: "MATLAB Foundation Certificate",
     image: matlab,
-    link: "https://raw.githubusercontent.com/girishmore2004/Girish_Portfolio/main/src/assets/MATLAB_FoundationCertificate.pdf"
+    link: "https://raw.githubusercontent.com/girishmore2004/Girish_Portfolio/main/src/assets/MATLAB_FoundationCertificate.pdf",
+    isPDF: true
   }
 ];
  
