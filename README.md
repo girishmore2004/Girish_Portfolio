@@ -2,8 +2,8 @@
 
 # Getting Started with Create React App
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/405ac925-c23d-4079-985f-f0b7ceb21ffb/deploy-status)](https://app.netlify.com/sites/tonmoysu/deploys)
-## [Portfolio Live on Netlify and Vercel app🎯](https://tonmoysu.netlify.app/)
+[![Netlify Status]
+## [Portfolio Live on Netlify and Vercel app🎯](https://main--girishmore2004-portfolio.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
