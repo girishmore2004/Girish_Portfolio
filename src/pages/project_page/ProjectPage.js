@@ -286,7 +286,8 @@ import pp from "../../images/portfolio1.png";
 import ac from "../../images/weather.png";
 import calculator from "../../images/onboarding.png";
 import calendar from "../../images/dailynews.png";
-import res from "../../images/res.png"
+import res from "../../images/res.png";
+import boot from "../../images/boot.png";
 import { FaCode } from "react-icons/fa";
 
 const projects = [
@@ -301,7 +302,7 @@ const projects = [
   {
     id: 2,
     title: "Frontend Template using Bootstrap Properties",
-    image: pp,
+    image: boot,
     link: "https://github.com/girishmore2004/CodeExpress-Bootstraps",
     description: "A versatile frontend template using Bootstrap, featuring properties for login, signup, card sections, and a contact us form.",
     languages: "HTML, CSS, JavaScript, Bootstraps"
