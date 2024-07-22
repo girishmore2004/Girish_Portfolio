@@ -291,7 +291,7 @@ import { FaCode } from "react-icons/fa";
 
 const projects = [
   {
-    id: 1,
+    id: 5,
     title: "Personal Portfolio",
     image: pp,
     link: "https://github.com/girishmore2004/portfolio-Girish",
@@ -300,6 +300,14 @@ const projects = [
   },
   {
     id: 2,
+    title: "Frontend Template using Bootstrap Properties",
+    image: pp,
+    link: "https://github.com/girishmore2004/CodeExpress-Bootstraps",
+    description: "A versatile frontend template using Bootstrap, featuring properties for login, signup, card sections, and a contact us form.",
+    languages: "HTML, CSS, JavaScript, Bootstraps"
+  },
+  {
+    id: 3,
     title: "Weather Website",
     image: ac,
     link: "https://github.com/girishmore2004/Weather",
@@ -307,7 +315,7 @@ const projects = [
     languages: "HTML, CSS"
   },
   {
-    id: 3,
+    id: 4,
     title: "DailyNews Website",
     image: calendar,
     link: "https://github.com/girishmore2004/DailyNews",
@@ -315,7 +323,7 @@ const projects = [
     languages: "HTML, CSS, JavaScript, React"
   },
   {
-    id: 4,
+    id: 1,
     title: "Basic Bank System using Oops - Code",
     image: calculator,
     link: "https://github.com/girishmore2004/Basic-Bank-System-using-Oops-in-Java",
@@ -323,7 +331,7 @@ const projects = [
     languages: "Java"
   },
   {
-    id: 5,
+    id: 6,
     title: "Restaurent Website",
     image: res,
     link: "https://github.com/girishmore2004/restaurent",
