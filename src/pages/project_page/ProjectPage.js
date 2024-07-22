@@ -286,6 +286,7 @@ import pp from "../../images/portfolio1.png";
 import ac from "../../images/weather.png";
 import calculator from "../../images/onboarding.png";
 import calendar from "../../images/dailynews.png";
+import res from "../../images/res.png"
 import { FaCode } from "react-icons/fa";
 
 const projects = [
@@ -320,6 +321,14 @@ const projects = [
     link: "https://github.com/girishmore2004/Basic-Bank-System-using-Oops-in-Java",
     description: "This Java project implements a simple basic bank system allowing users to create savings accounts, check balances, deposit and withdraw funds, and apply interest. Utilizing object-oriented programming principles, it provides essential banking functionalities in a straightforward command-line interface.",
     languages: "Java"
+  },
+  {
+    id: 5,
+    title: "Restaurent Website",
+    image: res,
+    link: "https://github.com/girishmore2004/restaurent",
+    description: "Developed a fully responsive restaurant website using the MERN stack with robust authentication features for secure user interactions.",
+    languages: "MERN Stack"
   }
 ];
 
