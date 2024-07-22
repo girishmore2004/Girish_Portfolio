@@ -292,12 +292,12 @@ import { FaCode } from "react-icons/fa";
 
 const projects = [
   {
-    id: 5,
-    title: "Personal Portfolio",
-    image: pp,
-    link: "https://github.com/girishmore2004/portfolio-Girish",
-    description: "Welcome to my personal portfolio. Explore my work, skills, and achievements in a concise and visually appealing format. Get a glimpse of my expertise and creativity.",
-    languages: "HTML, CSS, SCSS, React, JavaScript"
+    id: 1,
+    title: "Basic Bank System using Oops - Code",
+    image: calculator,
+    link: "https://github.com/girishmore2004/Basic-Bank-System-using-Oops-in-Java",
+    description: "This Java project implements a simple basic bank system allowing users to create savings accounts, check balances, deposit and withdraw funds, and apply interest. Utilizing object-oriented programming principles, it provides essential banking functionalities in a straightforward command-line interface.",
+    languages: "Java"
   },
   {
     id: 2,
@@ -324,12 +324,12 @@ const projects = [
     languages: "HTML, CSS, JavaScript, React"
   },
   {
-    id: 1,
-    title: "Basic Bank System using Oops - Code",
-    image: calculator,
-    link: "https://github.com/girishmore2004/Basic-Bank-System-using-Oops-in-Java",
-    description: "This Java project implements a simple basic bank system allowing users to create savings accounts, check balances, deposit and withdraw funds, and apply interest. Utilizing object-oriented programming principles, it provides essential banking functionalities in a straightforward command-line interface.",
-    languages: "Java"
+    id: 5,
+    title: "Personal Portfolio",
+    image: pp,
+    link: "https://github.com/girishmore2004/portfolio-Girish",
+    description: "Welcome to my personal portfolio. Explore my work, skills, and achievements in a concise and visually appealing format. Get a glimpse of my expertise and creativity.",
+    languages: "HTML, CSS, SCSS, React, JavaScript"
   },
   {
     id: 6,
