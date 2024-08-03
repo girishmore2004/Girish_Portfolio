@@ -1312,6 +1312,7 @@ html {
     font-size: 16px; /* Adjust font size for smaller screens */
     padding: 10px; /* Adjust padding for smaller screens */
     height: 50%; /* Adjust height if needed */
+    height: 50%; /* Adjust height if needed */
     width: 90%; /* Adjust width for smaller screens */
     transform: translate(-105%, 30%); /* Adjust transform if needed */
   }
