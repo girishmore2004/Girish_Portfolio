@@ -103,6 +103,18 @@ function ProjectJourney() {
             Restaurent Website
           </h3>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<JavascriptIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            TimetableHub
+          </h3>
+        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}

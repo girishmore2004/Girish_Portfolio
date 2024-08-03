@@ -288,6 +288,7 @@ import calculator from "../../images/onboarding.png";
 import calendar from "../../images/dailynews.png";
 import res from "../../images/res.png";
 import boot from "../../images/boot.png";
+import table from "../../images/table.png";
 import { FaCode } from "react-icons/fa"; 
 
 const projects = [
@@ -338,6 +339,14 @@ const projects = [
     link: "https://github.com/girishmore2004/restaurent",
     description: "Developed a fully responsive restaurant website using the MERN stack with robust authentication features for secure user interactions.",
     languages: "MERN Stack"
+  },
+  {
+    id: 7,
+    title: "TimetableHub Website",
+    image: table,
+    link: "https://github.com/girishmore2004/TimetableHub",
+    description: "This project is a dynamic timetable management system designed to automate and optimize class and teacher scheduling based on school timings, teacher availability, and subject requirements. Using a smart algorithm, it efficiently allocates time slots, ensuring balanced schedules for both students and teachers. The application features a responsive interface and allows users to download schedules in PDF format.",
+    languages: "MERN Stack and custom scheduling algorithm Logic"
   }
 ];
 
