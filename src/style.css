@@ -469,7 +469,7 @@ html {
   background-color: rgb(19 2 105 / 44%);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  /* padding-bottom: 8px !important ; */
   z-index: 6;
 }
 .footer-copywright {
