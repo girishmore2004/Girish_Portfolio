@@ -20,9 +20,8 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
       e.preventDefault();
-      try {
-          const API_URL="http://172.25.69.14"
-          const response = await fetch(`${API_URL}/api/contact/`, {
+      try { 
+          const response = await fetch('/api/contact/', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
