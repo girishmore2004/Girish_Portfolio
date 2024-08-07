@@ -20,8 +20,8 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
       e.preventDefault();
-      try { 
-          const response = await fetch('/api/contact/', {
+      try {
+          const response = await fetch('http://localhost:5000/api/contact/', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
@@ -174,18 +174,3 @@ const Contactus = () => {
                          );
                        }
                        export default Contactus
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                       
